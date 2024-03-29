@@ -23,7 +23,7 @@ const transporter = nodemailer.createTransport({
     secure:false,
     logger: true,
     debug: true,
-    ignoreTLS:true
+    ignoreTLS:true,
     auth: {
       user: process.env.EMAIL_USERNAME,
       pass: process.env.EMAIL_PASSWORD,
